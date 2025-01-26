@@ -1,4 +1,4 @@
 # swipy
 
-A docker image supporting work with the janus interface on MacOs
+A docker image definition supporting work with the janus interface on MacOs
 
