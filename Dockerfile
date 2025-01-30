@@ -1,5 +1,5 @@
 FROM debian:bookworm-slim
-LABEL maintainer "Dave Curylo <dave@curylo.org>, Michael Hendricks <michael@ndrix.org>"
+LABEL maintainer "incodame <tanguy.ronan@gmail.com>"
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     libtcmalloc-minimal4 \
