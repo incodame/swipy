@@ -28,8 +28,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 ENV LANG C.UTF-8
 RUN set -eux; \
-    SWIPL_VER=9.3.9; \
-    SWIPL_CHECKSUM=9c37b1c4714146ad089acdc5badb1e8cb608fd933f1aaeb8337a52beb6d1eb2b; \
+    SWIPL_VER=9.3.36; \
+    SWIPL_CHECKSUM=7a7ed88e3380e176eb19d219e59fa7faaa10ff34b62227741d0aab58ec6b710f; \
     # Removed libgeos-dev libspatialindex-dev because the space pack cannot be built
     BUILD_DEPS='make cmake ninja-build gcc g++ wget git pkg-config m4 libtool automake autoconf libarchive-dev libgmp-dev libossp-uuid-dev libpcre2-dev libreadline-dev libedit-dev libssl-dev zlib1g-dev libdb-dev unixodbc-dev libsqlite3-dev libserd-dev libraptor2-dev libyaml-dev libgoogle-perftools-dev libpython3-dev'; \
     dpkgArch="$(dpkg --print-architecture)"; \
